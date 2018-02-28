@@ -1,0 +1,72 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+
+form p{
+	display: inline-block;
+}
+
+table{
+	display: inline-block;
+	margin-top: 64px;
+}
+
+td{
+	padding: 10px;
+}
+
+table input, table p, table textarea{
+	font-size: 18px;
+	font-family: 'Karma', serif;
+}
+
+table input, table textarea{
+	width: 160px;
+	box-sizing: border-box;
+} 
+
+textarea{
+	height: 80px;
+}
+
+#submit{
+	display: block;
+	height: 50px;
+	width: 120px;
+	font-family: 'Karma', serif;
+	font-size: 18px;
+	margin-bottom: 70px;
+}
+
+.wrapper{
+	width: 900px;
+	outline: 2px solid #14233a;
+	padding: 10px;
+	background: repeating-linear-gradient(-45deg, #b7cff7, #b7cff7 1px, #afc6ed 5px, #afc6ed 6px);
+}
+
+.formArea{
+	width: 300px;
+	border: 2px solid #6b7482;
+	display: inline-block;
+	vertical-align: top;
+	background-color: rgba(162, 175, 196, 0.6);
+}
+
+.cardArea{
+	width: 500px;
+	height: 400px;
+	margin-left: 88px;
+	border: 2px solid #68616d;
+	display: inline-block;
+	background-color: rgba(158, 150, 165, 0.6);
+}
+
+.contactCard{
+	width: 400px;
+	margin: 10px 50px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	border: 3px solid black;
+}

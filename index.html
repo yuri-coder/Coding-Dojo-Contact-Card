@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Card</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Karma|Raleway" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src = "script.js"></script>
+</head>
+<body>
+	<div class = "wrapper">
+		<div class = "formArea">
+			<form id="userForm">
+				<table>
+					<tr>
+						<td><p>First Name:</p></td>
+						<td><input type = "text" name = "firstName" class = "firstName" placeholder="First Name"></td>
+					</tr>
+					<tr>
+						<td><p>Last Name:</p></td>
+						<td><input type = "text" name = "lastName" class = "lastName" placeholder="Last Name"></td>
+					</tr>
+					<tr>
+						<td><p>Description:</p></td>
+						<td><textarea name = "description" class = "description" form = "userForm" placeholder="Enter a description here!"></textarea></td>
+					</tr>
+				</table>
+				<input type = "submit" id = "submit" value = "Add Contact!">
+			</form>
+		</div>
+		<div class = "cardArea">
+			<div class = "contactCard" contentName = "<h2>Fill in the form to add a contact!</h2>
+				<p>Then click to see the description!</p>" contentAlt = "<p>This is the description!</p><p>Click again to see the name info!</p>">
+				<h2>Fill in the form to add a contact!</h2>
+				<p>Then click to see the description!</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
