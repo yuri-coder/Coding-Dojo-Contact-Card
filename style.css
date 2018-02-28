@@ -61,6 +61,7 @@ textarea{
 	border: 2px solid #68616d;
 	display: inline-block;
 	background-color: rgba(158, 150, 165, 0.6);
+	overflow: auto;
 }
 
 .contactCard{
